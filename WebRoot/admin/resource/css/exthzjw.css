@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Plugin_Image
+{
+    background: url(../../icons/picture.png)  no-repeat  !important ;  
+}
+.add
+{
+    background: url(../../icons/icon_insert.png)  no-repeat  !important ;  
+}
+
+
+.update
+{
+    background: url(../../icons/icon_modify.png)  no-repeat  !important ;  
+}
+.delete
+{
+    background: url(../../icons/icon_delete.png)  no-repeat  !important ;  
+}
+.search
+{
+    background: url(../../icons/icon_search.png)  no-repeat  !important ;  
+}
+.tj
+{
+    background: url(../../icons/icon_sideAdd.png)  no-repeat  !important ;  
+}
