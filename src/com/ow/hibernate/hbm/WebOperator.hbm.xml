@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="com.ow.entity.WebOperator" table="WebOperator">
+  <composite-id>
+            <!-- key-property标签表示哪一些属性对应复合主键 -->
+            <key-property name="accountID" column="accountID"></key-property>
+            <key-property name="webOperatorID" column="webOperatorID"></key-property>
+        </composite-id>
+    <property name="operatorName"></property>
+    <property name="password1"></property>
+    <property name="password2"></property>
+    <property name="password3"></property>
+    <property name="password4"></property>
+    <property name="sex"></property>
+    <property name="operatorUid"></property>
+    <property name="mobile"></property>
+    <property name="createDate"></property>
+    <property name="operatorFunction"></property>
+    <property name="state"></property>
+    <property name="operatorType"></property>
+    <property name="simNo"></property>
+    <property name="authenticationID"></property>
+    <property name="language"></property>
+    <property name="deviceNo"></property>
+    <property name="isBind"></property>
+  </class>
+</hibernate-mapping>
