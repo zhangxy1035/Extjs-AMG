@@ -20,6 +20,7 @@
   <constant name="struts.multipart.maxSize" value="9000000"/>  
 
 <include file="com/ow/config/struts/webOperator.xml"></include>
+<include file="com/ow/config/struts/login.xml"></include>
 
 </struts>
 
